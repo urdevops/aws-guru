@@ -11,3 +11,5 @@ S3
 CLOUD FRONT
 
 ECR
+
+ECS
