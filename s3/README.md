@@ -86,7 +86,7 @@ S3 Storage Classes
 
 S3 offers multiple storage classes, each designed for different use cases and performance requirements:
 
-![Screenshot 2023-07-06 at 7 16 51 PM]
+![Screenshot 2023-07-06 at 7 16 51 PM](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/6b1ebcda-5b99-4358-ac1a-5bf559140571)
 
 
 S3 Replication
