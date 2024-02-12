@@ -1,6 +1,5 @@
 # AWS S3
-
-## About 
+ 
 
 What is Amazon S3?
 
@@ -19,9 +18,13 @@ Key benefits of S3 buckets
 S3 buckets offer several advantages, including:
 
     Durability and availability: S3 provides high durability and availability for your data.
+    
     Scalability: You can store and retrieve any amount of data without worrying about capacity constraints.
+    
     Security: S3 offers multiple security features such as encryption, access control, and audit logging.
+
     Performance: S3 is designed to deliver high performance for data retrieval and storage operations.
+    
     Cost-effective: S3 offers cost-effective storage options and pricing models based on your usage patterns.
 
 ## Creating and Configuring S3 Buckets
@@ -83,7 +86,7 @@ S3 Storage Classes
 
 S3 offers multiple storage classes, each designed for different use cases and performance requirements:
 
-![Screenshot 2023-07-06 at 7 16 51 PM](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/6b1ebcda-5b99-4358-ac1a-5bf559140571)
+![Screenshot 2023-07-06 at 7 16 51 PM]
 
 
 S3 Replication
