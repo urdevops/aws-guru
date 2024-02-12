@@ -12,7 +12,7 @@ To connect your VPC to the internet or other networks, you can set up gateways o
 
 With a VPC, you have control over your network environment. You can define access rules, set up firewalls, and configure security groups to regulate who can access your resources and how they can communicate.
 
-![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/12cc10b6-724c-42c9-b07b-d8a7ce124e24)
+
 
 By default, when you create an AWS account, AWS will create a default VPC for you but this default VPC is just to get started with AWS. You should create VPCs for applications or projects. 
 
@@ -20,54 +20,60 @@ By default, when you create an AWS account, AWS will create a default VPC for yo
 
 The following features help you configure a VPC to provide the connectivity that your applications need:
 
-Virtual private clouds (VPC)
+1. Virtual private clouds (VPC)
 
-    A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets.
-Subnets
+A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets.
 
-    A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
-IP addressing
+2. Subnets
 
-    You can assign IP addresses, both IPv4 and IPv6, to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
 
-Network Access Control List (NACL)
+3. IP addressing
 
-    A Network Access Control List is a stateless firewall that controls inbound and outbound traffic at the subnet level. It operates at the IP address level and can allow or deny traffic based on rules that you define. NACLs provide an additional layer of network security for your VPC.
+You can assign IP addresses, both IPv4 and IPv6, to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+
+4. Network Access Control List (NACL)
+
+A Network Access Control List is a stateless firewall that controls inbound and outbound traffic at the subnet level. It operates at the IP address level and can allow or deny traffic based on rules that you define. NACLs provide an additional layer of network security for your VPC.
    
-Security Group
+5. Security Group
 
-    A security group acts as a virtual firewall for instances (EC2 instances or other resources) within a VPC. It controls inbound and outbound traffic at the instance level. Security groups allow you to define rules that permit or restrict traffic based on protocols, ports, and IP addresses.  
+A security group acts as a virtual firewall for instances (EC2 instances or other resources) within a VPC. It controls inbound and outbound traffic at the instance level. Security groups allow you to define rules that permit or restrict traffic based on protocols, ports, and IP addresses.  
 
-Routing
+6. Routing
 
-    Use route tables to determine where network traffic from your subnet or gateway is directed.
-Gateways and endpoints
+Use route tables to determine where network traffic from your subnet or gateway is directed.
 
-    A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
-Peering connections
+7. Gateways and endpoints
 
-    Use a VPC peering connection to route traffic between the resources in two VPCs.
-Traffic Mirroring
+A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
 
-    Copy network traffic from network interfaces and send it to security and monitoring appliances for deep packet inspection.
-Transit gateways
+8. Peering connections
 
-    Use a transit gateway, which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
-VPC Flow Logs
+Use a VPC peering connection to route traffic between the resources in two VPCs.
 
-    A flow log captures information about the IP traffic going to and from network interfaces in your VPC.
-VPN connections
+9. Traffic Mirroring
 
-    Connect your VPCs to your on-premises networks using AWS Virtual Private Network (AWS VPN).
+Copy network traffic from network interfaces and send it to security and monitoring appliances for deep packet inspection.
+
+10. Transit gateways
+
+Use a transit gateway, which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
+
+11. VPC Flow Logs
+
+A flow log captures information about the IP traffic going to and from network interfaces in your VPC.
+
+12. VPN connections
+
+Connect your VPCs to your on-premises networks using AWS Virtual Private Network (AWS VPN).
 
 
 ## Resources 
 
-VPC with servers in private subnets and NAT
 
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
 
-![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/89d8316e-7b70-4821-a6bf-67d1dcc4d2fb)
 
 
 
