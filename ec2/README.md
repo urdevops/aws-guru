@@ -24,35 +24,35 @@ Deliver the broadest choice of compute, networking (up to 400 Gbps), and storage
 
 Recommended to follow [this](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html) page for very detailed and updated information.
 
-General purpose
+1. General purpose
 
 
 General Purpose instances are designed to deliver a balance of compute, memory, and network resources. They are suitable for a wide range of applications, including web servers,
 small databases, development and test environments, and more.
 
 
-Compute optimized
+2. Compute optimized
 
 
 Compute Optimized instances provide a higher ratio of compute power to memory. They excel in workloads that require high-performance processing such as batch processing, 
 scientific modeling, gaming servers, and high-performance web servers.
 
 
-Memory optimized
+3. Memory optimized
 
 
 Memory Optimized instances are designed to handle memory-intensive workloads. They are suitable for applications that require large amounts of memory, such as in-memory databases,
 real-time big data analytics, and high-performance computing.
 
 
-Storage optimized
+4. Storage optimized
 
 
 Storage Optimized instances are optimized for applications that require high, sequential read and write access to large datasets. 
 They are ideal for tasks like data warehousing, log processing, and distributed file systems.
 
 
-Accelerated computing
+5. Accelerated computing
 
 
 Accelerated Computing Instances typically come with one or more types of accelerators, such as Graphics Processing Units (GPUs),
