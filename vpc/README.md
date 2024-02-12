@@ -72,7 +72,7 @@ Connect your VPCs to your on-premises networks using AWS Virtual Private Network
 ## Resources 
 
 
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
+https://docs.aws.amazon.com/vpc
 
 
 
